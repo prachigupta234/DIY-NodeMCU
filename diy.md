@@ -1,5 +1,5 @@
-For introduction to NodeMCU and setting it up,[visit here](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md)
 # NodeMCU
+For introduction to NodeMCU and setting it up,[visit here](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md)
 ## Project-GEOLOCATION
 ### Index
 ### Introduction of project
@@ -14,4 +14,4 @@ In this project we will print the latitude and longitude of the device on an OLE
 1. Copy the code from [this file](/geolocation.md).
 2. Write your wifi name in place of 'SSID' and your wifi password in place of 'PASS'.
 3. Replace 'YOUR_API_KEY' by the API key copied.
-4. 
+4. Now connect your laptop with NodeMCU using a USBcable and upload the code.
