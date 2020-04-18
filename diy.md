@@ -39,9 +39,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 
 3. Fill the form and click on **Sign Up**.
 
-![free api](/images/C.png)
-
-![free api](/images/D.png)
+![free api](/images/C.png)   ![free api](/images/D.png)
 
 4. Copy the API access key.
 
