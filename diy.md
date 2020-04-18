@@ -1,7 +1,6 @@
 # NodeMCU
-## Index
-## Introduction to NodeMCU
 ## Project-GEOLOCATION
+### Index
 ### Introduction of project
 In this project we will print the latitude and longitude of the device on an OLED Display with the help of a NodeMCU. For this we will use a NodeMCU, OLED display for the hardware part and ipstack geolocation API, Aurdino IDE for the software part.
 ### Hardware
@@ -13,4 +12,5 @@ In this project we will print the latitude and longitude of the device on an OLE
 #### Main Code
 1. Copy the code from [this file](/geolocation.md).
 2. Write your wifi name in place of 'SSID' and your wifi password in place of 'PASS'.
-3. Replace 'YOUR_API_KEY' by the API key copied. 
+3. Replace 'YOUR_API_KEY' by the API key copied.
+4. 
