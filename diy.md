@@ -1,6 +1,6 @@
 # NodeMCU
 For introduction to NodeMCU and setting it up, [visit here](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md).
-## Project-GEOLOCATION
+## Project- GEOLOCATION
 ### Index
 ### Introduction of project
 In this project we will print the latitude and longitude of the device on an OLED Display with the help of a NodeMCU. For this we will use a NodeMCU, OLED display for the hardware part and ipstack geolocation API, Aurdino IDE for the software part.
