@@ -1,9 +1,7 @@
-/*********************************************************************
-  This is the code for Fetching your location from Google Geolocation API
-  
-  This code is provided by 
-  techiesms
-*********************************************************************/
+# Code for the Project
+
+
+```
 
 #include <SPI.h>
 #include <Wire.h>
@@ -15,21 +13,21 @@
 #include <ArduinoJson.h>
 #include "ESP8266WiFi.h"
 
-char myssid[] = "SSID";         // your network SSID (name)
+char myssid[] = "SSID";         // your network SSID (name of your WiFi network)
 char mypass[] = "PASS";          // your network password
 
 
-//Credentials for Google GeoLocation API...
-const char* Host = "www.googleapis.com";
-String thisPage = "/geolocation/v1/geolocate?key=";
+//Credentials for Ipstack GeoLocation API...
+const char* Host = "api.ipstack.com/";
+String thisPage = "134.201.250.155
+    ? access_key =";
 String key = "YOUR_API_KEY";
-
+String ur=(String)Host+thisPage+key;
 int status = WL_IDLE_STATUS;
 String jsonString = "{\n";
 
 double latitude    = 0.0;
 double longitude   = 0.0;
-double accuracy    = 0.0;
 int more_text = 1; // set to 1 for more debug output
 
 #define OLED_RESET LED_BUILTIN //4
@@ -184,11 +182,11 @@ void loop() {
 
   //Connect to the client and make the api call
   Serial.print("Requesting URL: ");
-  Serial.println("https://" + (String)Host + thisPage + "AIzaSyCYNXIYINPmTNIdusMjJloS4_BXSOff1_g");
+  Serial.println(ur);
   Serial.println(" ");
   if (client.connect(Host, 443)) {
     Serial.println("Connected");
-    client.println("POST " + thisPage + key + " HTTP/1.1");
+    client.println("GET " + thisPage + key + );
     client.println("Host: " + (String)Host);
     client.println("Connection: close");
     client.println("Content-Type: application/json");
@@ -208,9 +206,8 @@ void loop() {
     }
     JsonObject& root = jsonBuffer.parseObject(line);
     if (root.success()) {
-      latitude    = root["location"]["lat"];
-      longitude   = root["location"]["lng"];
-      accuracy   = root["accuracy"];
+      latitude    = root["latitude"];
+      longitude   = root["longitude"];
     }
   }
 
@@ -222,8 +219,6 @@ void loop() {
   Serial.println(latitude, 6);
   Serial.print("Longitude = ");
   Serial.println(longitude, 6);
-  Serial.print("Accuracy = ");
-  Serial.println(accuracy);
 
   display.clearDisplay();
   display.setTextSize(2);
@@ -265,21 +260,9 @@ void loop() {
 
   display.display();
   delay(2000);
-  display.clearDisplay();
-  display.setTextSize(2);
-  display.setTextColor(WHITE);
-  display.setCursor(15, 0);
-  display.println("Accuracy");
-  display.setTextColor(WHITE); // 'inverted' text
-  display.setTextSize(2);
-  display.setTextColor(WHITE);
-  display.setCursor(20, 30);
-  display.println(accuracy);
-
-
-  display.display();
-  delay(2000);
+ 
 
 
 
 }
+```
