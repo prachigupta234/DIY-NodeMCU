@@ -25,9 +25,9 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 2. **Ground:**  It is connected to the ground pin in the NodeMCU.
 3. **SCL:**  It is a serial clock pin for OLED-NodeMCU interface.
 4. **SDA:** It is a serial data pin for OLED-NodeMCU interface.
-#### 
 
 ![OLED](/images/oled.PNG)
+#### Circuit
 ### Software
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
