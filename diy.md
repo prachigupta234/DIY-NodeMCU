@@ -27,7 +27,8 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 ### Software
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
-2. Sign Up on ipstack as shown in figures below.
+2. Click on **SIGN UP FREE** then click on **GET FREE API KEY**.
+3. Fill the form and click on sign up.
 3. Copy the API access key.
 #### Main Code
 1. Copy the code from [this file](/geolocation.md).
