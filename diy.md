@@ -1,5 +1,7 @@
 # NodeMCU
 ## Project-GEOLOCATION
+### Introduction of project
+In this project we will print the latitude and longitude of the device on  aN OLED Display with the help of a NodeMCU. For this we will use a NodeMCU and an OLED display for the hardware part and ipstack geolocation API and aurdinoIDE for the software part.
 ### Software
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
