@@ -25,6 +25,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 2. **Ground:**  It is connected to the ground pin in the NodeMCU.
 3. **SCL:**  It is a serial clock pin for OLED-NodeMCU interface.
 4. **SDA:** It is a serial data pin for OLED-NodeMCU interface.
+#### 
 
 ![OLED](/images/oled.PNG)
 ### Software
@@ -32,7 +33,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 1. Open [ipstack](https://ipstack.com/).
 2. Click on **SIGN UP FREE** then click on **GET FREE API KEY**.
 3. Fill the form and click on **Sign Up**.
-3. Copy the API access key.
+4. Copy the API access key.
 #### Main Code
 1. Copy the code from [this file](/geolocation.md).
 2. Write your wifi name in place of 'SSID' and your wifi password in place of 'PASS'.
