@@ -13,6 +13,7 @@ Since several lines are used internally within the ESP8266 SoC, we have about 11
 Now again 2 pins out of 11 are generally reserved for RX and TX in order to communicate with a host PC from which compiled object code is downloaded.
 
 Hence finally, this leaves just 9 general purpose I/O pins i.e. D0 to D8.
+![Nodemcu](/images/NodeMCU)
 
 #### OLED:
 The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
@@ -20,7 +21,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 2. **Ground:**  It is connected to the ground pin in the NodeMCU.
 3. **SCL:**  It is a serial clock pin for OLED-NodeMCU interface.
 4. **SDA:** It is a serial data pin for OLED-NodeMCU interface.
-
+![OLED](/images/oled)
 ### Software
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
