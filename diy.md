@@ -36,6 +36,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 ![sign up](/images/A.png)
 
 ![free api](/images/B.png)
+
 3. Fill the form and click on **Sign Up**.
 
 ![free api](/images/C.png)
