@@ -32,16 +32,16 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
 2. Click on **SIGN UP FREE** then click on **GET FREE API KEY**.
-![sign up](/images/Screenshot (4).1.png)
+![sign up](/images/A.png)
 
-![free api](/images/Screenshot (5).png)
+![free api](/images/B.png)
 3. Fill the form and click on **Sign Up**.
-![free api](/images/Screenshot (6).png)
+![free api](/images/C.png)
 
-![free api](/images/Screenshot (50).png)
+![free api](/images/D.png)
 
 4. Copy the API access key.
-![free api](/images/Screenshot (7).png)
+![free api](/images/E.png)
 #### Main Code
 1. Copy the code from [this file](/geolocation.md).
 2. Write your wifi name in place of 'SSID' and your wifi password in place of 'PASS'.
