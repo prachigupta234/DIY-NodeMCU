@@ -19,8 +19,7 @@ char mypass[] = "PASS";          // your network password
 
 //Credentials for Ipstack GeoLocation API...
 const char* Host = "api.ipstack.com/";
-String thisPage = "134.201.250.155
-    ? access_key =";
+String thisPage = "134.201.250.155? access_key =";
 String key = "YOUR_API_KEY";
 String ur=(String)Host+thisPage+key;
 int status = WL_IDLE_STATUS;
