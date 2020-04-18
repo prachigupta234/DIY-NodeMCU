@@ -14,6 +14,8 @@ Now again 2 pins out of 11 are generally reserved for RX and TX in order to comm
 
 Hence finally, this leaves just 9 general purpose I/O pins i.e. D0 to D8.
 
+![Nodemcu](/images/NodeMCU.PNG)
+
 #### OLED:
 The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 1. **Power:**  It is used to power up the OLED,connected to the 3.3V pin on the NodeMCU.
@@ -21,6 +23,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 3. **SCL:**  It is a serial clock pin for OLED-NodeMCU interface.
 4. **SDA:** It is a serial data pin for OLED-NodeMCU interface.
 
+![OLED](/images/oled.PNG)
 ### Software
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
