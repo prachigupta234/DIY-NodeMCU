@@ -101,7 +101,7 @@ void setup()   {
 
 void loop() {
 
-  char bssid[6];
+  /*char bssid[6];
   DynamicJsonBuffer jsonBuffer;
   Serial.println("scan start");
   // WiFi.scanNetworks will return the number of networks found
@@ -175,7 +175,7 @@ void loop() {
   jsonString += ("}\n");
   //--------------------------------------------------------------------
 
-  Serial.println("");
+  Serial.println("");*/
 
   WiFiClientSecure client;
 
