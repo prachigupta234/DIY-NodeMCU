@@ -12,10 +12,9 @@ For introduction to NodeMCU and setting it up, [visit here](https://github.com/p
    - [Setting Up The API](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#setting-up-the-api)
    - [Sending Data to Spreadsheet](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#sending-data-to-spreadsheet)
    - [NodeMCU Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#main-code)
-   - [Spreadsheet Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/spread.md)
    
 ### INTRODUCTION OF PROJECT
-In this project we will print the latitude and longitude of the network host on an OLED Display with the help of NodeMCU. For this,we will use a NodeMCU,an OLED display as the hardware components and ipstack geolocation API, Aurdino IDE for the software components.
+In this project we will print the latitude and longitude of the network host on an OLED Display with the help of NodeMCU. For this, we will use a NodeMCU, an OLED display as the hardware components and ipstack geolocation API,  Aurdino IDE for the software components.
 ### GETTING THE PREREQUISITES
 Using these OLEDs with Arduino sketches requires two libraries to be installed: Adafruit_SSD1306, which handles the low-level communication with the hardware, and Adafruit_GFX, which builds atop this to add graphics functions like lines, circles and text.The method of the installation of these libraries can be found in the inroductory section of the project.
 
