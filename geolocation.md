@@ -7,6 +7,8 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include "HTTPSRedirect.h"
+#include "DebugMacros.h"
 
 
 #include <ESP8266HTTPClient.h>
@@ -184,8 +186,46 @@ void loop() {
   display.display();
   delay(2000);
  
+ const char* host = "script.google.com";
+ const char* GScriptId = "AKfycbxy9wAZKoPIpPq5AvqYTFxxxkkqK_avacf2NU_w7ycoEtlkuNt"; 
+ const int httpsPort = 443; 
 
+ String url = String("/macros/s/") + GScriptId + "/exec?value=Latitude";  
+ String url2 = String("/macros/s/") + GScriptId + "/exec?vall=Longitude";
 
+String payload_base =  "{\"command\": \"appendRow\", \
+                    \"sheet_name\": \"TempSheet\", \
+                       \"values\": ";
+                       
+HTTPSRedirect* client = nullptr;
+client = new HTTPSRedirect(httpsPort);
+client->setInsecure();
+Start the respose body i.e. if the server replies then we can print it on serial monitor. 
+client->setPrintResponseBody(true);
+client->setContentTypeHeader("application/json");
+  
+Serial.print("Connecting to ");
+Serial.println(host); 
+ bool flag = false;
+  for (int i = 0; i < 5; i++) {
+    int retval = client->connect(host, httpsPort);
+    if (retval == 1) {
+      flag = true;
+      break;
+    }
+    else
+      Serial.println("Connection failed. Retrying...");
+  }
+  payload = payload_base + "\"" + sheetTemp + "," + sheetHumid + "\"}";
+  
+   if (client->POST(url2, host, payload)) {
+    ;
+  }
+  else {
+    ++error_count;
+    DPRINT("Error-count while connecting: ");
+    DPRINTLN(error_count);
+  } 
 
 }
 ```
