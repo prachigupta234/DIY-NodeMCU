@@ -39,6 +39,8 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 
 ![OLED Display](/images/oled.PNG)
 #### Circuit
+![Circuit](/images/Circuit1.jpg)
+
 ### SOFTWARE
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
