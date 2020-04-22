@@ -8,10 +8,11 @@ For introduction to NodeMCU and setting it up, [visit here](https://github.com/p
    - [NodeMCU](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#nodemcu-1)
    - [OLED Display](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#oled-display)
    - [Circuit](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#circuit)
-4. [SOFTWARE](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#software)
+4. [SOoftware](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#software)
    - [Setting Up The API](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#setting-up-the-api)
    - [Sending Data to Spreadsheet](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#sending-data-to-spreadsheet)
-   - [Main Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#main-code)
+   - [NodeMCU Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#main-code)
+   - [Spreadsheet Code]
    
 ### INTRODUCTION OF PROJECT
 In this project we will print the latitude and longitude of the device on an OLED Display with the help of a NodeMCU. For this we will use a NodeMCU, OLED display for the hardware part and ipstack geolocation API, Aurdino IDE for the software part.
