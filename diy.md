@@ -44,6 +44,9 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 4. Copy the API access key.
 
 ![free api](/images/E.png)
+#### Sending Data to spreadsheet
+
+
 #### Main Code
 1. Copy the code from [this file](/geolocation.md).
 2. Write your wifi name in place of 'SSID' and your wifi password in place of 'PASS'.
