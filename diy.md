@@ -1,13 +1,13 @@
 # NodeMCU
 For introduction to NodeMCU and setting it up, [visit here](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md).
 ## Project- GEOLOCATION
-### Index
-### Introduction of project
+### INDEX
+### INTRODUCTION OF PROJECT
 In this project we will print the latitude and longitude of the device on an OLED Display with the help of a NodeMCU. For this we will use a NodeMCU, OLED display for the hardware part and ipstack geolocation API, Aurdino IDE for the software part.
-### Getting the prerequisites
+### GETTING THE PREREQUISITES
 Using these OLEDs with Arduino sketches requires that two libraries be installed: Adafruit_SSD1306, which handles the low-level communication with the hardware, and Adafruit_GFX, which builds atop this to add graphics functions like lines, circles and text.The method of the installation of these libraries can be found in the file mentioned ablove.
 
-### Hardware
+### HARDWARE
 #### NodeMCU:
 NodeMCU is a system on a chip (SoC) design with components like the processor chip. The processor has around 16 GPIO lines, some of which are used internally to interface with other components of the SoC, like flash memory.
 
@@ -28,7 +28,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 
 ![OLED](/images/oled.PNG)
 #### Circuit
-### Software
+### SOFTWARE
 #### Setting Up The API
 1. Open [ipstack](https://ipstack.com/).
 2. Click on **SIGN UP FREE** then click on **GET FREE API KEY**.
