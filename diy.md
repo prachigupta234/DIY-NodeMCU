@@ -38,7 +38,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 4. **SDA:** It is a serial data pin for OLED-NodeMCU interface.
 
 ![OLED Display](/images/oled.PNG)
-### CIRCUIT
+#### CIRCUIT-
 ![Circuit](/images/Circuit.jpg)
 
 ### SOFTWARE
