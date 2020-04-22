@@ -8,16 +8,16 @@ For introduction to NodeMCU and setting it up, [visit here](https://github.com/p
    - [NodeMCU](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#nodemcu-1)
    - [OLED Display](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#oled-display)
    - [Circuit](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#circuit)
-4. [SOoftware](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#software)
+4. [Software](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#software)
    - [Setting Up The API](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#setting-up-the-api)
    - [Sending Data to Spreadsheet](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#sending-data-to-spreadsheet)
    - [NodeMCU Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#main-code)
-   - [Spreadsheet Code]
+   - [Spreadsheet Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/spread.md)
    
 ### INTRODUCTION OF PROJECT
-In this project we will print the latitude and longitude of the device on an OLED Display with the help of a NodeMCU. For this we will use a NodeMCU, OLED display for the hardware part and ipstack geolocation API, Aurdino IDE for the software part.
+In this project we will print the latitude and longitude of the network host on an OLED Display with the help of NodeMCU. For this,we will use a NodeMCU,an OLED display as the hardware components and ipstack geolocation API, Aurdino IDE for the software components.
 ### GETTING THE PREREQUISITES
-Using these OLEDs with Arduino sketches requires that two libraries be installed: Adafruit_SSD1306, which handles the low-level communication with the hardware, and Adafruit_GFX, which builds atop this to add graphics functions like lines, circles and text.The method of the installation of these libraries can be found in the file mentioned ablove.
+Using these OLEDs with Arduino sketches requires two libraries to be installed: Adafruit_SSD1306, which handles the low-level communication with the hardware, and Adafruit_GFX, which builds atop this to add graphics functions like lines, circles and text.The method of the installation of these libraries can be found in the inroductory section of the project.
 
 ### HARDWARE
 #### NodeMCU:
@@ -58,11 +58,12 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 ![free api](/images/E.png)
 #### Sending Data to Spreadsheet
 For instructions on how to setup the google spreadsheet-NodeMCU communication refer to [this link](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md).
+The code for the spreadsheet can be found in [this file.](/spread.md)
 
-#### Main Code
+#### NodeMCU Code
 1. Copy the code from [this file](/geolocation.md).
-2. Write your wifi name in place of 'SSID' and your wifi password in place of 'PASS'.
-3. Replace 'YOUR_API_KEY' by the API key copied.
+2. Write your host name in place of 'SSID' and your password in place of 'PASS'.
+3. Replace 'YOUR_API_KEY' by the API key copied( see the process of setting up the api in the previous section).
 
 **Now connect your laptop with NodeMCU using a USB cable and upload the code.**
 ## CITATION
