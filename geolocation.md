@@ -19,6 +19,10 @@ char myssid[] = "SSID";         // your network SSID (name of your WiFi network)
 char mypass[] = "PASS";          // your network password
 
 
+const char* host1 = "script.google.com";
+const char* GScriptId = "AKfycbxy9wAZKoPIpPq5AvqYTFxxxkkqK_avacf2NU_w7ycoEtlkuNt"; 
+const int httpsPort = 443; 
+
 //Credentials for Ipstack GeoLocation API...
 const char* Host = "api.ipstack.com/";
 String thisPage = "134.201.250.155? access_key =";
@@ -186,9 +190,7 @@ void loop() {
   display.display();
   delay(2000);
  
- const char* host = "script.google.com";
- const char* GScriptId = "AKfycbxy9wAZKoPIpPq5AvqYTFxxxkkqK_avacf2NU_w7ycoEtlkuNt"; 
- const int httpsPort = 443; 
+
 
  String url = String("/macros/s/") + GScriptId + "/exec?value=Latitude";  
  String url2 = String("/macros/s/") + GScriptId + "/exec?vall=Longitude";
@@ -216,7 +218,7 @@ Serial.println(host);
     else
       Serial.println("Connection failed. Retrying...");
   }
-  payload = payload_base + "\"" + sheetTemp + "," + sheetHumid + "\"}";
+  payload = payload_base + "\"" + latitude + "," + longitude + "\"}";
   
    if (client->POST(url2, host, payload)) {
     ;
