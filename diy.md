@@ -44,8 +44,8 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 4. Copy the API access key.
 
 ![free api](/images/E.png)
-#### Sending Data to spreadsheet
-
+#### Sending Data to Spreadsheet
+For instructions on how to setup the google spreadsheet-NodeMCU communication refer to [this link](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md).
 
 #### Main Code
 1. Copy the code from [this file](/geolocation.md).
