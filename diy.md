@@ -64,3 +64,6 @@ For instructions on how to setup the google spreadsheet-NodeMCU communication re
 3. Replace 'YOUR_API_KEY' by the API key copied.
 
 **Now connect your laptop with NodeMCU using a USB cable and upload the code.**
+## CITATION
+- https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md
+- https://www.electronicsforu.com/electronics-projects/gps-geolocation-using-esp8266-projects
