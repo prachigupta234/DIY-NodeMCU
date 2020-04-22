@@ -39,7 +39,7 @@ The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 
 ![OLED Display](/images/oled.PNG)
 #### Circuit
-![Circuit](/images/Circuit1.jpg)
+![Circuit](/images/Circuit.jpg)
 
 ### SOFTWARE
 #### Setting Up The API
