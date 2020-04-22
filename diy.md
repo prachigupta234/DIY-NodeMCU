@@ -2,6 +2,17 @@
 For introduction to NodeMCU and setting it up, [visit here](https://github.com/prachigupta234/NodeMCU/blob/master/NodeMCU.md).
 ## Project- GEOLOCATION
 ### INDEX
+1. [Introduction of project](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#introduction-of-project)
+2. [Getting the prerequisites](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#getting-the-prerequisites)
+3. [Hardware](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#hardware)
+   - [NodeMCU](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#nodemcu-1)
+   - [OLED Display](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#oled-display)
+   - [Circuit](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#circuit)
+4. [SOFTWARE](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#software)
+   - [Setting Up The API](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#setting-up-the-api)
+   - [Sending Data to Spreadsheet](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#sending-data-to-spreadsheet)
+   - [Main Code](https://github.com/prachigupta234/DIY-NodeMCU/blob/master/diy.md#main-code)
+   
 ### INTRODUCTION OF PROJECT
 In this project we will print the latitude and longitude of the device on an OLED Display with the help of a NodeMCU. For this we will use a NodeMCU, OLED display for the hardware part and ipstack geolocation API, Aurdino IDE for the software part.
 ### GETTING THE PREREQUISITES
@@ -17,16 +28,16 @@ Now again 2 pins out of 11 are generally reserved for RX and TX in order to comm
 
 Hence finally, this leaves just 9 general purpose I/O pins i.e. D0 to D8.
 
-![Nodemcu](/images/NodeMCU.PNG)
+![NodeMCU](/images/NodeMCU.PNG)
 
-#### OLED:
+#### OLED Display:
 The OLED we use here is a 0.96" 128x64 display. It has 4 pins-
 1. **Power:**  It is used to power up the OLED,connected to the 3.3V pin on the NodeMCU.
 2. **Ground:**  It is connected to the ground pin in the NodeMCU.
 3. **SCL:**  It is a serial clock pin for OLED-NodeMCU interface.
 4. **SDA:** It is a serial data pin for OLED-NodeMCU interface.
 
-![OLED](/images/oled.PNG)
+![OLED Display](/images/oled.PNG)
 #### Circuit
 ### SOFTWARE
 #### Setting Up The API
